@@ -1,0 +1,74 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+
+.imagelist li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+
+}
+.word {
+    white-space:normal
+}
+.imagelist{
+    padding: 0;
+    margin: auto;
+    width: 380px;
+    height: 400px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.white{
+    color: white;
+}
+
+.avatar{
+    padding: 0;
+    margin: auto;
+    width: 380px;
+    height: 400px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.avatar li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+.avatar li .card_avater{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 10px;
+    /*border: 2px solid white;*/
+}
+.avatar li .card_avater img{
+    border-radius: 50%;
+}
+
+.contact{
+    /*border: 2px solid #000;*/
+    width: 120px;
+    text-align: center;
+    margin: 10px;
+}
+
+.contact img{
+    margin-bottom: 5px;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+}
+
